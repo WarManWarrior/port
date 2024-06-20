@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(226, 187, 233);
+    background-image: url(./image/7.png);
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+}
+.heading{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.Head{
+    background-color: rgb(109, 236, 213);
+    padding: 5px;
+}
+#logo{
+    padding-right: 20%;
+}
+.headitem:hover{
+    color: rgb(247, 249, 242);
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+span{
+    color: red;
+}
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px;
+    margin-top: 50px;
+    /* background-color: aquamarine; */
+}
+#nameimg{
+    /* background-color: black; */
+    position: relative;
+}
+.name{
+    position: absolute;
+    width: 600px;
+    top: 40%;
+    text-align: center;
+    font-family: "Playwrite FR Moderne", cursive;
+    text-shadow: 2px 0px  rgb(117, 113, 113);
+    z-index: 7;
+}
+#nameimg img{
+    object-fit: contain;
+    width: 100%;
+}
+#pictures{
+    /* background-color: blueviolet; */
+    position: relative;
+    width: 650px;
+}
+#pictures #firstimg{
+    width: 100%;
+    /* height: 100%; */
+}
+#first{
+    position: absolute;
+    z-index: 1;
+    height: 750px;
+    top: -25px;
+}
+#second{
+    position: absolute;
+    z-index: 2;
+    height: 600px;
+    top: 2%;
+    left: 7%;
+}
+#third{
+    position: absolute;
+    z-index: 3;
+    height: 520px;
+    top: 9%;
+    left: 13%;
+}
+#forth{
+    position: absolute;
+    z-index: 4;
+    top: 1%;
+    left: 13%;
+    height: 570px;
+}
+#fifth{
+    position: absolute;
+    right: 30%;
+    z-index: -1;
+}
+.hidden{
+    display: none;
+}
