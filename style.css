@@ -41,6 +41,8 @@ span{
 #nameimg{
     /* background-color: black; */
     position: relative;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
 }
 .name{
     position: absolute;
@@ -50,6 +52,10 @@ span{
     font-family: "Playwrite FR Moderne", cursive;
     text-shadow: 2px 0px  rgb(117, 113, 113);
     z-index: 7;
+    transition: 0.5s;
+}
+.name:hover{
+    transform: translateZ(50px);
 }
 #nameimg img{
     object-fit: contain;
